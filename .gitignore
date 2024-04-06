@@ -1,0 +1,6 @@
+*.gbr
+
+.DS_STORE
+
+firmware/.pio
+firmware/.vscode
