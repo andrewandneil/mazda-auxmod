@@ -1,6 +1,6 @@
 *.gbr
 
-.DS_STORE
+.DS_Store
 
 firmware/.pio
 firmware/.vscode
