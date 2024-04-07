@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Mazda AuxMod")
+    (date "2024-04-06")
+    (rev "v1.0")
+    (company "Andrew Wilson")
+    (comment 1 "www.github.com/andrewandneil/mazda-auxmod")
+  )
+
   (lib_symbols
     (symbol "Connector_Audio:AudioJack4_Ground" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 8.89 0)
@@ -1207,7 +1215,7 @@
 
   (no_connect (at 163.83 113.03) (uuid 6ba403e6-c896-4b61-a4d3-476efa38a61c))
   (no_connect (at 41.91 163.83) (uuid 78a0482c-8ea8-4efa-9c28-64f5ddd7c412))
-  (no_connect (at 39.37 124.46) (uuid a2ac32ce-4211-42d9-b92f-2c4fd0e2a8e9))
+  (no_connect (at 41.91 124.46) (uuid a2ac32ce-4211-42d9-b92f-2c4fd0e2a8e9))
   (no_connect (at 57.15 39.37) (uuid af79604d-bde4-452a-a846-7f8725cbceb0))
   (no_connect (at 57.15 52.07) (uuid b8b97863-a71e-447c-a32e-d94c11efe6de))
 
@@ -1242,6 +1250,10 @@
   (wire (pts (xy 167.64 67.31) (xy 180.34 67.31))
     (stroke (width 0) (type default))
     (uuid 094327be-7414-443c-b66a-af05d079ba29)
+  )
+  (wire (pts (xy 41.91 124.46) (xy 39.37 124.46))
+    (stroke (width 0) (type default))
+    (uuid 0aad05b1-fe84-44a4-8c42-0728b16aecf5)
   )
   (wire (pts (xy 116.84 168.91) (xy 116.84 170.18))
     (stroke (width 0) (type default))
@@ -3357,7 +3369,7 @@
     (property "Value" "AudioJack4_Ground" (at 31.75 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_Audio:Jack_3.5mm_PJ320E_Horizontal" (at 34.29 124.46 0)
+    (property "Footprint" "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" (at 34.29 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 34.29 124.46 0)
